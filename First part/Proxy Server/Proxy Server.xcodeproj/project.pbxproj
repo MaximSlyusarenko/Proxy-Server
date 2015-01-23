@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5048DD61A45F3FA0048D493 /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5048DD41A45F3FA0048D493 /* Client.cpp */; };
+		B53BA0A41A45E6BD006A65C4 /* KQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B53BA0A21A45E6BD006A65C4 /* KQ.cpp */; };
+		B59175451A337AAD00D578A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B59175441A337AAD00D578A3 /* main.cpp */; };
+		B591754D1A337ACE00D578A3 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B591754B1A337ACE00D578A3 /* Socket.cpp */; };
+		B59175501A337DCF00D578A3 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B591754E1A337DCF00D578A3 /* Exception.cpp */; };
+		B5A7D9CC1A3775E800491FCD /* TCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5A7D9CA1A3775E800491FCD /* TCP.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B591753F1A337AAD00D578A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5048DD41A45F3FA0048D493 /* Client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
+		B5048DD51A45F3FA0048D493 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		B53BA0A11A45E644006A65C4 /* my_object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_object.h; sourceTree = "<group>"; };
+		B53BA0A21A45E6BD006A65C4 /* KQ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KQ.cpp; sourceTree = "<group>"; };
+		B53BA0A31A45E6BD006A65C4 /* KQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQ.h; sourceTree = "<group>"; };
+		B59175411A337AAD00D578A3 /* Proxy Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Proxy Server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59175441A337AAD00D578A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B591754B1A337ACE00D578A3 /* Socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Socket.cpp; sourceTree = "<group>"; };
+		B591754C1A337ACE00D578A3 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		B591754E1A337DCF00D578A3 /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		B591754F1A337DCF00D578A3 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		B5A7D9CA1A3775E800491FCD /* TCP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCP.cpp; sourceTree = "<group>"; };
+		B5A7D9CB1A3775E800491FCD /* TCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCP.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B591753E1A337AAD00D578A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B59175381A337AAD00D578A3 = {
+			isa = PBXGroup;
+			children = (
+				B59175431A337AAD00D578A3 /* Proxy Server */,
+				B59175421A337AAD00D578A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B59175421A337AAD00D578A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59175411A337AAD00D578A3 /* Proxy Server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59175431A337AAD00D578A3 /* Proxy Server */ = {
+			isa = PBXGroup;
+			children = (
+				B59175441A337AAD00D578A3 /* main.cpp */,
+				B591754B1A337ACE00D578A3 /* Socket.cpp */,
+				B591754C1A337ACE00D578A3 /* Socket.h */,
+				B591754E1A337DCF00D578A3 /* Exception.cpp */,
+				B591754F1A337DCF00D578A3 /* Exception.h */,
+				B5A7D9CA1A3775E800491FCD /* TCP.cpp */,
+				B5A7D9CB1A3775E800491FCD /* TCP.h */,
+				B53BA0A11A45E644006A65C4 /* my_object.h */,
+				B53BA0A21A45E6BD006A65C4 /* KQ.cpp */,
+				B53BA0A31A45E6BD006A65C4 /* KQ.h */,
+				B5048DD41A45F3FA0048D493 /* Client.cpp */,
+				B5048DD51A45F3FA0048D493 /* Client.h */,
+			);
+			path = "Proxy Server";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59175401A337AAD00D578A3 /* Proxy Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59175481A337AAD00D578A3 /* Build configuration list for PBXNativeTarget "Proxy Server" */;
+			buildPhases = (
+				B591753D1A337AAD00D578A3 /* Sources */,
+				B591753E1A337AAD00D578A3 /* Frameworks */,
+				B591753F1A337AAD00D578A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proxy Server";
+			productName = "Proxy Server";
+			productReference = B59175411A337AAD00D578A3 /* Proxy Server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59175391A337AAD00D578A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Maxim Slyusarenko";
+				TargetAttributes = {
+					B59175401A337AAD00D578A3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B591753C1A337AAD00D578A3 /* Build configuration list for PBXProject "Proxy Server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B59175381A337AAD00D578A3;
+			productRefGroup = B59175421A337AAD00D578A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59175401A337AAD00D578A3 /* Proxy Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B591753D1A337AAD00D578A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53BA0A41A45E6BD006A65C4 /* KQ.cpp in Sources */,
+				B591754D1A337ACE00D578A3 /* Socket.cpp in Sources */,
+				B5048DD61A45F3FA0048D493 /* Client.cpp in Sources */,
+				B59175501A337DCF00D578A3 /* Exception.cpp in Sources */,
+				B59175451A337AAD00D578A3 /* main.cpp in Sources */,
+				B5A7D9CC1A3775E800491FCD /* TCP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B59175461A337AAD00D578A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B59175471A337AAD00D578A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B59175491A337AAD00D578A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B591754A1A337AAD00D578A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B591753C1A337AAD00D578A3 /* Build configuration list for PBXProject "Proxy Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59175461A337AAD00D578A3 /* Debug */,
+				B59175471A337AAD00D578A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59175481A337AAD00D578A3 /* Build configuration list for PBXNativeTarget "Proxy Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59175491A337AAD00D578A3 /* Debug */,
+				B591754A1A337AAD00D578A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59175391A337AAD00D578A3 /* Project object */;
+}
